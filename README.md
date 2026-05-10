@@ -21,5 +21,6 @@ In the first part, we cover the fundamentals of VLA models:
 
 ### Materials
 
-- [Lecture slides](src/lecture_slides_hse_vla_rl.pdf)
+- [HSE Lecture slides (VLA + RL)](src/lecture_slides_hse_vla_rl.pdf)
+- [YSDA Lecture slides (VLA Intro)](src/30_04_26_ysda_vla.pdf)
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cikH79MNhJz5UvSeYsD5kKGzTF8oID3f?usp=sharing)
