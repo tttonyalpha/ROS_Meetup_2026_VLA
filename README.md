@@ -23,4 +23,5 @@ In the first part, we cover the fundamentals of VLA models:
 
 - [HSE Lecture slides (VLA + RL)](src/lecture_slides_hse_vla_rl.pdf)
 - [YSDA Lecture slides (VLA Intro)](src/30_04_26_ysda_vla.pdf)
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cikH79MNhJz5UvSeYsD5kKGzTF8oID3f?usp=sharing)
+- HSE VLA + RL Seminar (SmolVLA + Libero): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cikH79MNhJz5UvSeYsD5kKGzTF8oID3f?usp=sharing)
+- YSDA VLA + World Models (Cosmos Policy Inference): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TOPJGQ-JdSSzvWZvzoh1NLkp5Ca3eD05?usp=sharing)
