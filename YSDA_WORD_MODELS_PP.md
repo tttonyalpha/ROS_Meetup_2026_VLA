@@ -182,3 +182,28 @@ score(a) = mean(V(a)) - beta * U_value(a) - gamma * U_ood(a)
 ```
 
 This penalizes actions far from known data.
+
+
+# Cosmos Policy Environment Setup for LIBERO Evaluation
+
+The environment can be installed directly from the official Cosmos Policy repository.
+
+```bash
+git clone https://github.com/NVlabs/cosmos-policy.git
+cd cosmos-policy
+uv sync --extra cu128 --group libero --python 3.10
+```
+
+The important part is to run the installation command from inside the cloned `cosmos-policy` repository. The command installs the CUDA 12.8 dependency set and the additional dependencies required for LIBERO evaluation.
+
+## Running LIBERO Evaluation
+
+After the environment is installed, follow the example from tihs google colab: 
+
+- YSDA VLA + World Models (Cosmos Policy Inference): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TOPJGQ-JdSSzvWZvzoh1NLkp5Ca3eD05?usp=sharing)
+
+## Docker Fallback
+
+If the local environment does not run correctly, use the Docker-based setup described in the official setup guide:
+
+<https://github.com/NVlabs/cosmos-policy/blob/main/SETUP.md>
