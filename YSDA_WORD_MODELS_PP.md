@@ -137,7 +137,7 @@ a* = argmax_a mean(V(a))
 
 This project can test safer alternatives.
 
-### Option 1: Penalize Value Variance
+### Penalize Value Variance
 
 ```text
 score(a) = mean(V(a)) - beta * std(V(a))
@@ -151,7 +151,7 @@ a* = argmax_a score(a)
 
 This discourages actions with high value uncertainty.
 
-### Option 2: Lower-Confidence-Bound Planning
+### Lower-Confidence-Bound Planning
 
 ```text
 score(a) = mean(V(a)) - beta * sqrt(Var(V(a)))
@@ -159,7 +159,7 @@ score(a) = mean(V(a)) - beta * sqrt(Var(V(a)))
 
 This chooses actions that are both high-value and reliable.
 
-### Option 3: Quantile-Based Planning
+### Quantile-Based Planning
 
 ```text
 score(a) = quantile_10_percent(V_1, V_2, ..., V_K)
@@ -167,15 +167,8 @@ score(a) = quantile_10_percent(V_1, V_2, ..., V_K)
 
 This means the action is selected based on a pessimistic estimate of success.
 
-### Option 4: Contact-Aware Risk Penalty
 
-```text
-score(a) = mean(V(a)) - beta * U_value(a) - gamma * U_grasp(a)
-```
-
-This is especially suitable for grasping tasks.
-
-### Option 5: OOD-Aware Planning
+### OOD-Aware Planning
 
 ```text
 score(a) = mean(V(a)) - beta * U_value(a) - gamma * U_ood(a)
